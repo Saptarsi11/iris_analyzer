@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iris_analyzer"
+version = "1.0.0"
+description = "A Python library for iris analysis"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "black",
+    "isort",
+    "notebook",
+    "black[jupyter]"
+]
+
+[tool.setuptools]
+packages = ["iris_analyzer"]
