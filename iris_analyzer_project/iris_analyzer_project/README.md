@@ -9,7 +9,6 @@ A Python package for analyzing and visualizing the Iris dataset.
     ```bash
     git clone https://github.com/Saptarsi11/iris_analyzer.git
     cd iris_analyzer
-    pip install
     ```
 
 2. Create a virtual environment and install the package:
